@@ -1,0 +1,141 @@
+/*filters*/
+.filter-wrapper {
+  width: 1150px;
+  display: flex;
+  justify-content: flex-end;
+  position:relative;
+  margin: 0 0 35px 0;
+  padding: 0 20px;
+}
+#filters-btn {
+  border: none;
+  background: transparent;
+}
+#filters-btn img {
+  width: 7px;
+}
+.list-filters {
+  width: 160px;
+  height: 68px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  background: #FFFFFF;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 18px;
+  color: #1F1F1F;
+  margin: 8px 0;
+}
+.list-filters-item {
+  height: 26px;
+  list-style: none;
+  text-align: start;
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #959DAD;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.list-filters-item:hover {
+  background: #F8F8F8;
+  color: #1F1F1F;
+}
+#list {
+  position: absolute;
+  z-index: 10 !important;
+  right: 20px;
+}
+
+/*Category-list*/
+.items-wrapper {
+  width: 1150px;
+  /*width: 100%;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  z-index: 5;
+}
+
+.category-item {
+  width: 264px;
+  height: 272px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 15px;
+  z-index: 1;
+  margin: 0 15px 15px 0;
+}
+
+.item-wrapper {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.item-img {
+  /*width: 142px;*/
+  height: 180px
+}
+
+.catalog-list {
+  padding: 50px;
+}
+.item-title {
+  font-size: 14px;
+  line-height: 18px;
+  color: #59606D;
+  text-transform: capitalize;
+}
+.item-cost {
+  font-size: 14px;
+  line-height: 18px;
+  color: #1F1F1F;
+  font-weight: bold;
+}
+
+.item-wrapper span{
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 13px;
+  color: #F2C94C;
+}
+.item-to-cart {
+  cursor: pointer;
+}
+.item-to-cart svg{
+  width: 12px;
+}
+.item-to-cart svg{
+  fill: #959DAD;
+}
+.item-to-cart svg:hover {
+  fill: #1F1F1F;
+}
+
+.popular {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.popular svg {
+  margin-right: 3px;
+}
+
+.category-items-wrapper {
+  width: 1150px;
+  /*width: 100%;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  z-index: 5;
+}

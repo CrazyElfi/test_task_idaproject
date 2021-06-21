@@ -1,0 +1,22 @@
+.sidebar {
+  width: 150px;
+}
+
+.category {
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: flex-end;
+  color: #959DAD;
+  margin-bottom: 16px;
+}
+
+.category:hover {
+  color: #59606D;
+  cursor: pointer;
+}
+
+.category-active {
+  text-decoration-line: underline;
+  color: #1F1F1F;
+}
